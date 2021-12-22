@@ -1,0 +1,94 @@
+p{
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 50px 50px 50px 150px;}
+h1{
+    color: rgb(19, 46, 97);
+    font-size: 26px;}
+ul{
+    margin: 50px 50px 50px 150px;
+    font-style: italic;}      
+a:hover {
+    font-size:24;
+    font-weight:bold;
+    color: rgb(100, 148, 211)}
+
+a:visited {
+    font-size:20; 
+    font-weight:bold;
+    color: rgb(134, 34, 118)}
+img {
+    border: 6px solid rgb(14, 7, 82);
+    border-radius: 8px;
+    border-style: double;
+    -o-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out}
+img:hover {
+    -webkit-transform:translate(20px, 20px);
+    -ms-transform: translate(20px, 20px); 
+    transform:translate(20px, 20px);
+}
+body{
+    background-image: none;
+    background-image: url(kosmos1.jpg);
+    }    
+.block1 {
+    width: 300px;
+    height: 15px;
+    background-color:darkblue;
+    position: relative;
+    left: 150px;
+    animation: test 5s infinite;
+    animation-direction: alternate;
+}
+.block2 {
+    width: 300px;
+    height: 15px;
+    background-color:darkblue;
+    position: relative;
+    animation: test 5s infinite;
+    animation-delay: 1s;
+}
+.block3 {
+    width: 300px;
+    height: 15px;
+    background-color:darkblue;
+    position: relative;
+    animation: colr 5s infinite;
+    animation-direction: alternate-reverse;
+}
+.block4{
+    width: 200px;
+    height: 20px;
+    background-color: lightskyblue;
+    position: relative;
+    left: 150px;
+}
+.block5{
+    width: 100px;
+    height: 100px;
+    background-color: lightsteelblue;
+    transition: width 2s ;
+}
+.block5:hover{
+    width: 200px;
+}
+.block1 {animation-timing-function: linear}
+.block2 {animation-timing-function: ease-in-out;}
+.block3:hover {
+    animation-play-state: paused;
+}
+
+
+@keyframes test {
+    from {left:0px}
+    to {left: 300px}
+}
+@keyframes colr{
+    0% {background-color: darkblue;}
+    25% {background-color: darkslateblue;}
+    50% {background-color: rgb(56, 125, 194);}
+    100% {background-color: dodgerblue;}
+}

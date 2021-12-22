@@ -1,0 +1,24 @@
+p {
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 50px 50px 50px 150px;}
+h1{
+    color: cornflowerblue;
+    font-size: 26px;}
+ul{
+    margin: 50px 50px 50px 150px;
+    font-style: italic;}
+a:hover {
+    font-size:20; font-weight:bold;
+    color: rgb(100, 148, 211)}
+a:visited {
+    font-size:20; font-weight:bold;
+    color: rgb(134, 34, 118)}
+img {
+    border: 6px solid rgb(14, 7, 82);
+    border-radius: 8px;
+    border-style: double;}
+body{
+    background-image: none;
+    background-image: url(kosmos1.jpg);
+    }    
